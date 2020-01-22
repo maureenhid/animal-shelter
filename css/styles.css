@@ -21,3 +21,11 @@ img{
   outline: 2px solid white;
   line-height: 30px;
 }
+
+.column p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.column h3{
+  color: white;
+}
