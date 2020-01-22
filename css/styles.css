@@ -29,3 +29,31 @@ img{
 .column h3{
   color: white;
 }
+
+@media screen and (min-width: 700px) {
+  .column {
+    width: 400px;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 480px) {
+  body {
+    background-color: black;
+    color: white;
+  }   
+}
+
+@media screen and (max-width: 500px) {
+  .column p {
+    color: limegreen;
+  }
+
+  .column h3 {
+    background-color: limegreen;
+  }
+
+  .column li {
+    background-color: black;
+  }
+}
