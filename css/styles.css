@@ -13,3 +13,11 @@ img{
   text-align: center;
   font-weight: bold;
 }
+
+.column li {
+  font-style: italic;
+  background-color: salmon;
+  font-size: 17px;
+  outline: 2px solid white;
+  line-height: 30px;
+}
